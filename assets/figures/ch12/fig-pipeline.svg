@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 230" width="730" height="230" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="365.00" y="26.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">The seven training stages, from random weights to a deployed reasoning model.</text>
+<rect x="14.00" y="95.00" width="96.00" height="30.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="62.00" y="110.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">① Pre-training</text>
+<rect x="149.00" y="95.00" width="78.00" height="30.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="188.00" y="110.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">② SFT</text>
+<rect x="258.00" y="49.00" width="124.00" height="30.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="320.00" y="64.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">③ Reward model</text>
+<rect x="270.00" y="141.00" width="100.00" height="30.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="320.00" y="156.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">⑤ DPO</text>
+<rect x="414.00" y="49.00" width="124.00" height="30.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="476.00" y="64.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">④ RLHF / PPO</text>
+<rect x="554.00" y="95.00" width="116.00" height="30.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="612.00" y="110.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">⑥ Reasoning RL</text>
+<rect x="554.00" y="173.00" width="116.00" height="30.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="612.00" y="188.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">⑦ Evaluation</text>
+<line x1="112.00" y1="110.00" x2="147.00" y2="110.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="229.00" y1="104.00" x2="256.00" y2="64.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="229.00" y1="116.00" x2="268.00" y2="156.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="384.00" y1="64.00" x2="412.00" y2="64.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="540.00" y1="70.00" x2="552.00" y2="110.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="372.00" y1="150.00" x2="552.00" y2="110.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="612.00" y1="125.00" x2="612.00" y2="173.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+</svg>

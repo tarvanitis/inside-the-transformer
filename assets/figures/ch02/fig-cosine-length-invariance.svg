@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 320" width="620" height="320" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<rect x="16.00" y="20.00" width="300.00" height="284.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="166.00" y="36.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Same direction, different length</text>
+<line x1="70.00" y1="250.00" x2="267.40" y2="250.00" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="70.00" y1="250.00" x2="70.00" y2="107.20" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="70.00" y1="250.00" x2="238.00" y2="166.00" stroke="#A80036" stroke-width="2.4" marker-end="url(#a-red)"/>
+<line x1="70.00" y1="250.00" x2="154.00" y2="208.00" stroke="#4a4a4a" stroke-width="2.4" marker-end="url(#a-char)"/>
+<text x="160.00" y="223.00" font-size="12" fill="#4a4a4a" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">a = [2, 1]</text>
+<text x="234.00" y="156.00" font-size="12" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">b = [4, 2]</text>
+<path d="M96.00,250.00 A26,26 0 0 0 93.17,238.20" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="166.00" y="240.00" font-size="12" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">angle between them = 0°</text>
+<text x="166.00" y="259.00" font-size="12.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">cosine = 1.0  (same direction)</text>
+<text x="166.00" y="278.00" font-size="11.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">but dot product 5 → 10  (b is twice as long)</text>
+<rect x="336.00" y="20.00" width="268.00" height="284.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="470.00" y="36.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Cosine reads the angle only</text>
+<circle cx="470.00" cy="88.00" r="26.00" fill="#FEFECE" stroke="#d9d4cc" stroke-width="1.2"/>
+<line x1="470.00" y1="88.00" x2="470.00" y2="66.00" stroke="#4a4a4a" stroke-width="2.0" marker-end="url(#a-char)"/>
+<line x1="470.00" y1="88.00" x2="470.00" y2="66.00" stroke="#A80036" stroke-width="2.0" marker-end="url(#a-red)"/>
+<text x="514.00" y="82.00" font-size="12" fill="#1b1b1b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">north vs north</text>
+<text x="514.00" y="100.00" font-size="12.5" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">cos = 1</text>
+<circle cx="470.00" cy="162.00" r="26.00" fill="#FEFECE" stroke="#d9d4cc" stroke-width="1.2"/>
+<line x1="470.00" y1="162.00" x2="470.00" y2="140.00" stroke="#4a4a4a" stroke-width="2.0" marker-end="url(#a-char)"/>
+<line x1="470.00" y1="162.00" x2="492.00" y2="162.00" stroke="#A80036" stroke-width="2.0" marker-end="url(#a-red)"/>
+<text x="514.00" y="156.00" font-size="12" fill="#1b1b1b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">north vs east</text>
+<text x="514.00" y="174.00" font-size="12.5" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">cos = 0</text>
+<circle cx="470.00" cy="236.00" r="26.00" fill="#FEFECE" stroke="#d9d4cc" stroke-width="1.2"/>
+<line x1="470.00" y1="236.00" x2="470.00" y2="214.00" stroke="#4a4a4a" stroke-width="2.0" marker-end="url(#a-char)"/>
+<line x1="470.00" y1="236.00" x2="470.00" y2="258.00" stroke="#A80036" stroke-width="2.0" marker-end="url(#a-red)"/>
+<text x="514.00" y="230.00" font-size="12" fill="#1b1b1b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">north vs south</text>
+<text x="514.00" y="248.00" font-size="12.5" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">cos = −1</text>
+</svg>

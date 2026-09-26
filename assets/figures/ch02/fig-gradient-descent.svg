@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<rect x="16.00" y="20.00" width="380.00" height="300.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="206.00" y="36.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Rolling downhill: L = (w − 3)²</text>
+<line x1="60.40" y1="280.00" x2="377.20" y2="280.00" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<line x1="70.00" y1="287.80" x2="70.00" y2="30.40" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<text x="367.60" y="296.00" font-size="12" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">w</text>
+<text x="62.00" y="40.80" font-size="12" fill="#6b6b6b" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">L</text>
+<polyline points="70.00,46.00 74.80,61.34 79.60,76.16 84.40,90.46 89.20,104.24 94.00,117.50 98.80,130.24 103.60,142.46 108.40,154.16 113.20,165.34 118.00,176.00 122.80,186.14 127.60,195.76 132.40,204.86 137.20,213.44 142.00,221.50 146.80,229.04 151.60,236.06 156.40,242.56 161.20,248.54 166.00,254.00 170.80,258.94 175.60,263.36 180.40,267.26 185.20,270.64 190.00,273.50 194.80,275.84 199.60,277.66 204.40,278.96 209.20,279.74 214.00,280.00 218.80,279.74 223.60,278.96 228.40,277.66 233.20,275.84 238.00,273.50 242.80,270.64 247.60,267.26 252.40,263.36 257.20,258.94 262.00,254.00 266.80,248.54 271.60,242.56 276.40,236.06 281.20,229.04 286.00,221.50 290.80,213.44 295.60,204.86 300.40,195.76 305.20,186.14 310.00,176.00 314.80,165.34 319.60,154.16 324.40,142.46 329.20,130.24 334.00,117.50 338.80,104.24 343.60,90.46 348.40,76.16 353.20,61.34 358.00,46.00" fill="none" stroke="#4a4a4a" stroke-width="2.2"/>
+<circle cx="310.00" cy="176.00" r="4.20" fill="#A80036" stroke="none" stroke-width="0"/>
+<circle cx="290.80" cy="213.44" r="4.20" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="310.00" y1="176.00" x2="290.80" y2="213.44" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<circle cx="275.44" cy="237.40" r="4.20" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="290.80" y1="213.44" x2="275.44" y2="237.40" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<circle cx="263.15" cy="252.74" r="4.20" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="275.44" y1="237.40" x2="263.15" y2="252.74" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<circle cx="253.31" cy="262.56" r="4.20" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="263.15" y1="252.74" x2="253.31" y2="262.56" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<text x="310.00" y="164.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">start w=5</text>
+<circle cx="214.00" cy="280.00" r="4.50" fill="none" stroke="#A80036" stroke-width="1.6"/>
+<text x="214.00" y="266.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">minimum w=3</text>
+<rect x="410.00" y="20.00" width="214.00" height="300.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="517.00" y="36.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Choosing the step size α</text>
+<polyline points="443.4,49.1 446.8,56.7 450.2,63.7 453.6,70.1 457.0,76.0 460.4,81.3 463.8,86.1 467.2,90.3 470.6,93.9 474.0,97.0 477.4,99.5 480.8,101.5 484.2,102.9 487.6,103.7 491.0,104.0 494.4,103.7 497.8,102.9 501.2,101.5 504.6,99.5 508.0,97.0 511.4,93.9 514.8,90.3 518.2,86.1 521.6,81.3 525.0,76.0 528.4,70.1 531.8,63.7 535.2,56.7 538.6,49.1 542.0,41.0" fill="none" stroke="#d7d2c8" stroke-width="1.6"/>
+<circle cx="525.00" cy="76.00" r="3.00" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+<circle cx="521.60" cy="81.32" r="3.00" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+<line x1="525.00" y1="76.00" x2="521.60" y2="81.32" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<circle cx="518.54" cy="85.63" r="3.00" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+<line x1="521.60" y1="81.32" x2="518.54" y2="85.63" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<circle cx="515.82" cy="89.08" r="3.00" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+<line x1="518.54" y1="85.63" x2="515.82" y2="89.08" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<text x="590.00" y="72.00" font-size="11.5" fill="#8a8a8a" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">α too small</text>
+<text x="590.00" y="86.00" font-size="10.5" fill="#6b6b6b" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">crawls</text>
+<polyline points="443.4,129.1 446.8,136.7 450.2,143.7 453.6,150.1 457.0,156.0 460.4,161.3 463.8,166.1 467.2,170.3 470.6,173.9 474.0,177.0 477.4,179.5 480.8,181.5 484.2,182.9 487.6,183.7 491.0,184.0 494.4,183.7 497.8,182.9 501.2,181.5 504.6,179.5 508.0,177.0 511.4,173.9 514.8,170.3 518.2,166.1 521.6,161.3 525.0,156.0 528.4,150.1 531.8,143.7 535.2,136.7 538.6,129.1 542.0,121.0" fill="none" stroke="#d7d2c8" stroke-width="1.6"/>
+<circle cx="525.00" cy="156.00" r="3.00" fill="#A80036" stroke="none" stroke-width="0"/>
+<circle cx="508.00" cy="177.00" r="3.00" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="525.00" y1="156.00" x2="508.00" y2="177.00" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)"/>
+<circle cx="497.80" cy="182.88" r="3.00" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="508.00" y1="177.00" x2="497.80" y2="182.88" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)"/>
+<circle cx="492.70" cy="183.93" r="3.00" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="497.80" y1="182.88" x2="492.70" y2="183.93" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)"/>
+<circle cx="491.00" cy="184.00" r="3.00" fill="#A80036" stroke="none" stroke-width="0"/>
+<line x1="492.70" y1="183.93" x2="491.00" y2="184.00" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)"/>
+<text x="590.00" y="152.00" font-size="11.5" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">α good</text>
+<text x="590.00" y="166.00" font-size="10.5" fill="#6b6b6b" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">converges</text>
+<polyline points="443.4,209.1 446.8,216.7 450.2,223.7 453.6,230.1 457.0,236.0 460.4,241.3 463.8,246.1 467.2,250.3 470.6,253.9 474.0,257.0 477.4,259.5 480.8,261.5 484.2,262.9 487.6,263.7 491.0,264.0 494.4,263.7 497.8,262.9 501.2,261.5 504.6,259.5 508.0,257.0 511.4,253.9 514.8,250.3 518.2,246.1 521.6,241.3 525.0,236.0 528.4,230.1 531.8,223.7 535.2,216.7 538.6,209.1 542.0,201.0" fill="none" stroke="#d7d2c8" stroke-width="1.6"/>
+<circle cx="525.00" cy="236.00" r="3.00" fill="#4a4a4a" stroke="none" stroke-width="0"/>
+<circle cx="457.00" cy="236.00" r="3.00" fill="#4a4a4a" stroke="none" stroke-width="0"/>
+<line x1="525.00" y1="236.00" x2="457.00" y2="236.00" stroke="#4a4a4a" stroke-width="1.3" marker-end="url(#a-char)"/>
+<circle cx="525.00" cy="236.00" r="3.00" fill="#4a4a4a" stroke="none" stroke-width="0"/>
+<line x1="457.00" y1="236.00" x2="525.00" y2="236.00" stroke="#4a4a4a" stroke-width="1.3" marker-end="url(#a-char)"/>
+<circle cx="457.00" cy="236.00" r="3.00" fill="#4a4a4a" stroke="none" stroke-width="0"/>
+<line x1="525.00" y1="236.00" x2="457.00" y2="236.00" stroke="#4a4a4a" stroke-width="1.3" marker-end="url(#a-char)"/>
+<text x="590.00" y="232.00" font-size="11.5" fill="#4a4a4a" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">α too large</text>
+<text x="590.00" y="246.00" font-size="10.5" fill="#6b6b6b" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">overshoots → oscillates</text>
+</svg>

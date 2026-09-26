@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="300.00" y="30.00" font-size="11" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Quantization trade-off for a 7B model: quality holds down to ~4 bits, then drops.</text>
+<line x1="80.00" y1="258.00" x2="555.00" y2="258.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="80.00" y1="258.00" x2="80.00" y2="53.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<text x="315.00" y="290.00" font-size="11" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">model size on disk (GB) →</text>
+<text x="38.0" y="163.0" font-size="11" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" transform="rotate(-90 38.0 163.0)">quality (relative)</text>
+<line x1="80.00" y1="258.00" x2="555.00" y2="258.00" stroke="#d7d2c8" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="72.00" y="258.00" font-size="9" fill="#6b6b6b" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">60</text>
+<line x1="80.00" y1="171.64" x2="555.00" y2="171.64" stroke="#d7d2c8" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="72.00" y="171.64" font-size="9" fill="#6b6b6b" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">80</text>
+<line x1="80.00" y1="85.27" x2="555.00" y2="85.27" stroke="#d7d2c8" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="72.00" y="85.27" font-size="9" fill="#6b6b6b" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">100</text>
+<text x="80.00" y="273.00" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">2</text>
+<text x="186.15" y="273.00" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">5</text>
+<text x="363.08" y="273.00" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">10</text>
+<text x="504.62" y="273.00" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">14</text>
+<polyline points="104.8,223.5 126.0,150.0 154.3,106.9 182.6,93.9 214.5,89.6 274.6,85.3 504.6,85.3" fill="none" stroke="#4a4a4a" stroke-width="2"/>
+<circle cx="104.77" cy="223.45" r="4.20" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="104.77" y="211.45" font-size="8.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q2_K</text>
+<circle cx="126.00" cy="150.05" r="4.20" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="126.00" y="138.05" font-size="8.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q3_K_M</text>
+<circle cx="154.31" cy="106.86" r="4.20" fill="#A80036" stroke="#A80036" stroke-width="1.5"/>
+<text x="154.31" y="122.86" font-size="8.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q4_K_M</text>
+<circle cx="182.62" cy="93.91" r="4.20" fill="#A80036" stroke="#A80036" stroke-width="1.5"/>
+<text x="182.62" y="81.91" font-size="8.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q5_K_M</text>
+<circle cx="214.46" cy="89.59" r="4.20" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="214.46" y="77.59" font-size="8.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q6_K</text>
+<circle cx="274.62" cy="85.27" r="4.20" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="274.62" y="73.27" font-size="8.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q8_0</text>
+<circle cx="504.62" cy="85.27" r="4.20" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="504.62" y="73.27" font-size="8.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">FP16</text>
+<rect x="147.2" y="68.0" width="38.9" height="190.0" fill="#A80036" opacity="0.06"/>
+<text x="168.46" y="197.55" font-size="9.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">sweet spot</text>
+<text x="398.46" y="102.55" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">bigger, barely better</text>
+</svg>

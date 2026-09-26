@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<rect x="28.00" y="80.00" width="64.00" height="32.00" rx="4" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="60.00" y="96.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">464</text>
+<rect x="28.00" y="150.00" width="64.00" height="32.00" rx="4" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="60.00" y="166.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">3797</text>
+<rect x="28.00" y="220.00" width="64.00" height="32.00" rx="4" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="60.00" y="236.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">3332</text>
+<text x="60.00" y="56.00" font-size="11" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">token IDs</text>
+<rect x="200.00" y="56.00" width="150.00" height="210.00" rx="0" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.2"/>
+<line x1="200.00" y1="73.50" x2="350.00" y2="73.50" stroke="#d7d2c8" stroke-width="0.6"/>
+<rect x="200.00" y="91.00" width="150.00" height="17.50" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<line x1="200.00" y1="91.00" x2="350.00" y2="91.00" stroke="#d7d2c8" stroke-width="0.6"/>
+<line x1="200.00" y1="108.50" x2="350.00" y2="108.50" stroke="#d7d2c8" stroke-width="0.6"/>
+<line x1="200.00" y1="126.00" x2="350.00" y2="126.00" stroke="#d7d2c8" stroke-width="0.6"/>
+<line x1="200.00" y1="143.50" x2="350.00" y2="143.50" stroke="#d7d2c8" stroke-width="0.6"/>
+<rect x="200.00" y="161.00" width="150.00" height="17.50" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<line x1="200.00" y1="161.00" x2="350.00" y2="161.00" stroke="#d7d2c8" stroke-width="0.6"/>
+<line x1="200.00" y1="178.50" x2="350.00" y2="178.50" stroke="#d7d2c8" stroke-width="0.6"/>
+<line x1="200.00" y1="196.00" x2="350.00" y2="196.00" stroke="#d7d2c8" stroke-width="0.6"/>
+<rect x="200.00" y="213.50" width="150.00" height="17.50" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<line x1="200.00" y1="213.50" x2="350.00" y2="213.50" stroke="#d7d2c8" stroke-width="0.6"/>
+<line x1="200.00" y1="231.00" x2="350.00" y2="231.00" stroke="#d7d2c8" stroke-width="0.6"/>
+<line x1="200.00" y1="248.50" x2="350.00" y2="248.50" stroke="#d7d2c8" stroke-width="0.6"/>
+<text x="275.00" y="42.00" font-size="12" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">E   (50000 × 768)</text>
+<text x="275.00" y="282.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">one row per token</text>
+<line x1="94.00" y1="96.00" x2="198.00" y2="99.75" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<line x1="94.00" y1="166.00" x2="198.00" y2="169.75" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<line x1="94.00" y1="236.00" x2="198.00" y2="222.25" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#a-gray)"/>
+<line x1="352.00" y1="99.75" x2="428.00" y2="99.75" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)"/>
+<rect x="430.00" y="84.75" width="44.00" height="30.00" rx="0" fill="#f3d9e0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="452.00" y="99.75" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+0.23</text>
+<rect x="474.00" y="84.75" width="44.00" height="30.00" rx="0" fill="#dfe7f0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="496.00" y="99.75" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">-0.15</text>
+<rect x="518.00" y="84.75" width="44.00" height="30.00" rx="0" fill="#f3d9e0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="540.00" y="99.75" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+0.78</text>
+<text x="568.00" y="99.75" font-size="12" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">…</text>
+<line x1="352.00" y1="169.75" x2="428.00" y2="169.75" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)"/>
+<rect x="430.00" y="154.75" width="44.00" height="30.00" rx="0" fill="#f3d9e0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="452.00" y="169.75" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+0.25</text>
+<rect x="474.00" y="154.75" width="44.00" height="30.00" rx="0" fill="#dfe7f0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="496.00" y="169.75" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">-0.14</text>
+<rect x="518.00" y="154.75" width="44.00" height="30.00" rx="0" fill="#f3d9e0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="540.00" y="169.75" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+0.76</text>
+<text x="568.00" y="169.75" font-size="12" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">…</text>
+<line x1="352.00" y1="222.25" x2="428.00" y2="222.25" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)"/>
+<rect x="430.00" y="207.25" width="44.00" height="30.00" rx="0" fill="#dfe7f0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="452.00" y="222.25" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">-0.54</text>
+<rect x="474.00" y="207.25" width="44.00" height="30.00" rx="0" fill="#f3d9e0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="496.00" y="222.25" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+0.82</text>
+<rect x="518.00" y="207.25" width="44.00" height="30.00" rx="0" fill="#dfe7f0" stroke="#c9c4b8" stroke-width="0.7"/>
+<text x="540.00" y="222.25" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">-0.11</text>
+<text x="568.00" y="222.25" font-size="12" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">…</text>
+<text x="496.00" y="42.00" font-size="12" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">embedding vectors  (3 × 768)</text>
+<text x="320.00" y="308.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">Reading a token's vector is just picking its row from E.</text>
+</svg>

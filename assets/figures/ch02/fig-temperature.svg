@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<line x1="30.00" y1="220.00" x2="162.00" y2="220.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<rect x="40.00" y="94.00" width="34.00" height="126.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1.1"/>
+<text x="57.00" y="85.00" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.84</text>
+<text x="57.00" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">A</text>
+<rect x="86.00" y="203.50" width="34.00" height="16.50" rx="0" fill="#e9e6df" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="103.00" y="194.50" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.11</text>
+<text x="103.00" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">B</text>
+<rect x="132.00" y="214.00" width="34.00" height="6.00" rx="0" fill="#e9e6df" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="149.00" y="205.00" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.04</text>
+<text x="149.00" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">C</text>
+<text x="103.33" y="44.00" font-size="14" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">τ = 0.5</text>
+<text x="103.33" y="62.00" font-size="11.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">sharper</text>
+<line x1="236.67" y1="220.00" x2="368.67" y2="220.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<rect x="246.67" y="125.50" width="34.00" height="94.50" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1.1"/>
+<text x="263.67" y="116.50" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.63</text>
+<text x="263.67" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">A</text>
+<rect x="292.67" y="185.50" width="34.00" height="34.50" rx="0" fill="#e9e6df" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="309.67" y="176.50" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.23</text>
+<text x="309.67" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">B</text>
+<rect x="338.67" y="199.00" width="34.00" height="21.00" rx="0" fill="#e9e6df" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="355.67" y="190.00" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.14</text>
+<text x="355.67" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">C</text>
+<text x="310.00" y="44.00" font-size="14" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">τ = 1.0</text>
+<text x="310.00" y="62.00" font-size="11.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">default</text>
+<line x1="206.67" y1="32.00" x2="206.67" y2="250.00" stroke="#d9d4cc" stroke-width="1"/>
+<line x1="443.33" y1="220.00" x2="575.33" y2="220.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<rect x="453.33" y="140.50" width="34.00" height="79.50" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1.1"/>
+<text x="470.33" y="131.50" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.53</text>
+<text x="470.33" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">A</text>
+<rect x="499.33" y="179.50" width="34.00" height="40.50" rx="0" fill="#e9e6df" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="516.33" y="170.50" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.27</text>
+<text x="516.33" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">B</text>
+<rect x="545.33" y="190.00" width="34.00" height="30.00" rx="0" fill="#e9e6df" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="562.33" y="181.00" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0.20</text>
+<text x="562.33" y="235.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">C</text>
+<text x="516.67" y="44.00" font-size="14" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">τ = 1.5</text>
+<text x="516.67" y="62.00" font-size="11.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">flatter</text>
+<line x1="413.33" y1="32.00" x2="413.33" y2="250.00" stroke="#d9d4cc" stroke-width="1"/>
+<text x="310.00" y="288.00" font-size="11.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">Same logits [2.0, 1.0, 0.5]. Low τ sharpens toward the top token; high τ flattens.</text>
+</svg>

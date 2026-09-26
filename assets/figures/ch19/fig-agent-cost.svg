@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" height="300" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="280.00" y="28.00" font-size="11" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Each step resends the whole conversation, so cost grows with the square of the steps.</text>
+<rect x="66.00" y="229.00" width="32.00" height="17.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="82.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">1</text>
+<rect x="106.00" y="212.00" width="32.00" height="34.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="122.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">2</text>
+<rect x="146.00" y="195.00" width="32.00" height="51.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="162.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">3</text>
+<rect x="186.00" y="178.00" width="32.00" height="68.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="202.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">4</text>
+<rect x="226.00" y="161.00" width="32.00" height="85.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="242.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">5</text>
+<rect x="266.00" y="144.00" width="32.00" height="102.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="282.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">6</text>
+<rect x="306.00" y="127.00" width="32.00" height="119.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="322.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">7</text>
+<rect x="346.00" y="110.00" width="32.00" height="136.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="362.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">8</text>
+<rect x="386.00" y="93.00" width="32.00" height="153.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="402.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">9</text>
+<rect x="426.00" y="76.00" width="32.00" height="170.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="442.00" y="258.00" font-size="8" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">10</text>
+<line x1="58.00" y1="246.00" x2="466.00" y2="246.00" stroke="#8a8a8a" stroke-width="1.3"/>
+<text x="266.00" y="274.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">agent step</text>
+<text x="442.00" y="68.00" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">20k</text>
+<rect x="70.00" y="60.00" width="224.00" height="74.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1"/>
+<text x="182.00" y="80.00" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">10-step run</text>
+<text x="182.00" y="98.00" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">total ≈ 110k tokens</text>
+<text x="182.00" y="114.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">naive 10 × 2k = 20k</text>
+<text x="182.00" y="128.00" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">→ 5.5× more</text>
+</svg>

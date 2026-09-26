@@ -1,0 +1,7 @@
+# Configuration for tools/check-structure.py (the book-auditor checker).
+# See https://github.com/tarvanitis/ai-prose-tools
+
+# Full form in running prose, abbreviated in glossary entries and table cells
+# where the column is narrow. Both are deliberate. Declaring them here means a
+# third form appearing later is still reported as drift.
+xref_styles = ["Chapter N", "Ch N"]

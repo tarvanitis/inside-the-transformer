@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="320.00" y="28.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">GRPO drops PPO's critic and uses the group's own average as the baseline.</text>
+<rect x="16.00" y="50.00" width="300.00" height="214.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="166.00" y="66.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">PPO: a trained critic</text>
+<rect x="45.00" y="78.00" width="110.00" height="30.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="100.00" y="93.00" font-size="10.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">policy</text>
+<line x1="100.00" y1="108.00" x2="100.00" y2="126.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<rect x="25.00" y="126.00" width="150.00" height="30.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="100.00" y="141.00" font-size="10.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">response → reward r</text>
+<rect x="185.00" y="78.00" width="110.00" height="30.00" rx="5" fill="#f3d9e0" stroke="#A80036" stroke-width="1.1"/>
+<text x="240.00" y="93.00" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">value network</text>
+<text x="240.00" y="68.00" font-size="8.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">extra trained model</text>
+<line x1="240.00" y1="108.00" x2="240.00" y2="126.00" stroke="#A80036" stroke-width="1.4" marker-end="url(#a-red)"/>
+<rect x="185.00" y="126.00" width="110.00" height="30.00" rx="5" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="240.00" y="141.00" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">baseline b</text>
+<rect x="76.00" y="196.00" width="180.00" height="30.00" rx="5" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="166.00" y="211.00" font-size="10.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">advantage = r − b</text>
+<line x1="100.00" y1="156.00" x2="150.00" y2="194.00" stroke="#8a8a8a" stroke-width="1.2" marker-end="url(#a-gray)"/>
+<line x1="240.00" y1="156.00" x2="210.00" y2="194.00" stroke="#A80036" stroke-width="1.2" marker-end="url(#a-red)"/>
+<rect x="324.00" y="50.00" width="300.00" height="214.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="474.00" y="66.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">GRPO: the group is the baseline</text>
+<rect x="419.00" y="78.00" width="110.00" height="30.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="474.00" y="93.00" font-size="10.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">policy</text>
+<line x1="474.00" y1="108.00" x2="474.00" y2="122.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<rect x="402.00" y="128.00" width="30.00" height="26.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="417.00" y="141.00" font-size="9.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">1</text>
+<rect x="440.00" y="128.00" width="30.00" height="26.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<text x="455.00" y="141.00" font-size="9.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">1</text>
+<rect x="478.00" y="128.00" width="30.00" height="26.00" rx="0" fill="#e9e6df" stroke="#c9c4b8" stroke-width="1"/>
+<text x="493.00" y="141.00" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0</text>
+<rect x="516.00" y="128.00" width="30.00" height="26.00" rx="0" fill="#e9e6df" stroke="#c9c4b8" stroke-width="1"/>
+<text x="531.00" y="141.00" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0</text>
+<text x="474.00" y="170.00" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">G responses, rewards {1,1,0,0}</text>
+<rect x="384.00" y="186.00" width="180.00" height="30.00" rx="5" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="474.00" y="201.00" font-size="10.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">baseline = group mean</text>
+<text x="474.00" y="226.00" font-size="9.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">no critic — no extra network to train</text>
+</svg>

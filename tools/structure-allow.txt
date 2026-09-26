@@ -1,0 +1,5 @@
+# Explicit exemptions for check-structure.py. Format:  path  # reason
+# Same rule as prose-allow.txt: if it is not enumerated here, it fails.
+
+frontmatter/01-preface.md   # the callout-icon legend is front-matter apparatus, not a numbered table
+frontmatter/03-conceptual-track.md   # navigational reading-guide tables (chapter/read-skim/what-you-get), not numbered book tables

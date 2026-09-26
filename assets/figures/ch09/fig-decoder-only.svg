@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 520" width="380" height="520" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="190.00" y="22.00" font-size="11" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">The modern decoder-only architecture, end to end.</text>
+<rect x="42" y="116" width="268" height="214" rx="8" fill="none" stroke="#A80036" stroke-width="1.1" stroke-dasharray="5,4"/>
+<text x="302.00" y="128.00" font-size="10" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">× N</text>
+<rect x="69.00" y="31.00" width="214.00" height="26.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="176.00" y="44.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Input tokens → IDs</text>
+<rect x="69.00" y="69.00" width="214.00" height="26.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="176.00" y="82.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Token embedding</text>
+<rect x="69.00" y="129.00" width="214.00" height="26.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="176.00" y="142.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">RMSNorm</text>
+<rect x="69.00" y="165.00" width="214.00" height="26.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="176.00" y="178.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Multi-head attention (causal)</text>
+<circle cx="176.00" cy="212.00" r="10.00" fill="#ffffff" stroke="#A80036" stroke-width="1.5"/>
+<text x="176.00" y="212.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">+</text>
+<rect x="69.00" y="233.00" width="214.00" height="26.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="176.00" y="246.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">RMSNorm</text>
+<rect x="69.00" y="267.00" width="214.00" height="26.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="176.00" y="280.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Feed-forward (SwiGLU)</text>
+<circle cx="176.00" cy="314.00" r="10.00" fill="#ffffff" stroke="#A80036" stroke-width="1.5"/>
+<text x="176.00" y="314.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">+</text>
+<rect x="69.00" y="353.00" width="214.00" height="26.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="176.00" y="366.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Final RMSNorm</text>
+<rect x="69.00" y="389.00" width="214.00" height="26.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="176.00" y="402.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">LM head</text>
+<rect x="69.00" y="425.00" width="214.00" height="26.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="176.00" y="438.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Softmax over vocabulary</text>
+<rect x="69.00" y="461.00" width="214.00" height="26.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="176.00" y="474.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Next-token probabilities</text>
+<line x1="176.00" y1="57.00" x2="176.00" y2="69.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="95.00" x2="176.00" y2="129.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="155.00" x2="176.00" y2="165.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="191.00" x2="176.00" y2="202.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="222.00" x2="176.00" y2="233.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="259.00" x2="176.00" y2="267.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="293.00" x2="176.00" y2="304.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="324.00" x2="176.00" y2="353.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="379.00" x2="176.00" y2="389.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="415.00" x2="176.00" y2="425.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="451.00" x2="176.00" y2="461.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="176.00" y1="95.00" x2="298.00" y2="95.00" stroke="#4a4a4a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="298.00" y1="95.00" x2="298.00" y2="212.00" stroke="#4a4a4a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="298.00" y1="212.00" x2="186.00" y2="212.00" stroke="#4a4a4a" stroke-width="1.2" marker-end="url(#a-char)" stroke-dasharray="4,3"/>
+<line x1="176.00" y1="224.00" x2="54.00" y2="224.00" stroke="#4a4a4a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="54.00" y1="224.00" x2="54.00" y2="314.00" stroke="#4a4a4a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="54.00" y1="314.00" x2="166.00" y2="314.00" stroke="#4a4a4a" stroke-width="1.2" marker-end="url(#a-char)" stroke-dasharray="4,3"/>
+</svg>

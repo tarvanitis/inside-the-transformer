@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" width="620" height="420" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="310.00" y="22.00" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">The original 2017 encoder–decoder transformer: two stacks joined by cross-attention.</text>
+<text x="150.00" y="52.00" font-size="11" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Encoder</text>
+<rect x="50" y="116" width="200" height="128" rx="8" fill="none" stroke="#4a4a4a" stroke-width="1.1" stroke-dasharray="5,4"/>
+<text x="242.00" y="128.00" font-size="9.5" fill="#4a4a4a" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">× N</text>
+<rect x="58.00" y="66.00" width="184.00" height="24.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="150.00" y="78.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Source tokens + PE</text>
+<rect x="58.00" y="120.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="150.00" y="132.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Self-attention</text>
+<rect x="58.00" y="152.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="150.00" y="164.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Add &amp; Norm</text>
+<rect x="58.00" y="184.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="150.00" y="196.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Feed-forward</text>
+<rect x="58.00" y="216.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="150.00" y="228.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Add &amp; Norm</text>
+<rect x="58.00" y="268.00" width="184.00" height="24.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="150.00" y="280.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Encoder output (memory)</text>
+<line x1="150.00" y1="90.00" x2="150.00" y2="120.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="150.00" y1="144.00" x2="150.00" y2="152.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="150.00" y1="176.00" x2="150.00" y2="184.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="150.00" y1="208.00" x2="150.00" y2="216.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="150.00" y1="240.00" x2="150.00" y2="268.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<text x="452.00" y="52.00" font-size="11" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Decoder</text>
+<rect x="352" y="116" width="200" height="192" rx="8" fill="none" stroke="#4a4a4a" stroke-width="1.1" stroke-dasharray="5,4"/>
+<text x="544.00" y="128.00" font-size="9.5" fill="#4a4a4a" text-anchor="end" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">× N</text>
+<rect x="360.00" y="66.00" width="184.00" height="24.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="452.00" y="78.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Target tokens + PE</text>
+<rect x="360.00" y="120.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="452.00" y="132.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Masked self-attention</text>
+<rect x="360.00" y="152.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="452.00" y="164.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Add &amp; Norm</text>
+<rect x="360.00" y="184.00" width="184.00" height="24.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="452.00" y="196.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Cross-attention</text>
+<rect x="360.00" y="216.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="452.00" y="228.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Add &amp; Norm</text>
+<rect x="360.00" y="248.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="452.00" y="260.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Feed-forward</text>
+<rect x="360.00" y="280.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="452.00" y="292.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Add &amp; Norm</text>
+<rect x="360.00" y="326.00" width="184.00" height="24.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="452.00" y="338.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Linear + Softmax</text>
+<rect x="360.00" y="362.00" width="184.00" height="24.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="452.00" y="374.00" font-size="9" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Output probabilities</text>
+<line x1="452.00" y1="90.00" x2="452.00" y2="120.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="452.00" y1="144.00" x2="452.00" y2="152.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="452.00" y1="176.00" x2="452.00" y2="184.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="452.00" y1="208.00" x2="452.00" y2="216.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="452.00" y1="240.00" x2="452.00" y2="248.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="452.00" y1="272.00" x2="452.00" y2="280.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="452.00" y1="304.00" x2="452.00" y2="326.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="452.00" y1="350.00" x2="452.00" y2="362.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="242.00" y1="280.00" x2="358.00" y2="196.00" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<text x="301.00" y="236.00" font-size="9.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">K, V</text>
+</svg>

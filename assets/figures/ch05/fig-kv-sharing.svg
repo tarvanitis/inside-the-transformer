@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" width="680" height="250" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<rect x="39.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="58.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="77.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="96.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="115.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="134.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="153.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="172.33" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="36.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="46.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="55.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="65.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="74.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="84.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="93.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="103.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="112.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="122.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="131.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="141.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="150.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="160.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="169.33" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="179.83" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<line x1="46.83" y1="93.00" x2="46.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="65.83" y1="93.00" x2="65.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="84.83" y1="93.00" x2="84.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="103.83" y1="93.00" x2="103.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="122.83" y1="93.00" x2="122.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="141.83" y1="93.00" x2="141.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="160.83" y1="93.00" x2="160.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="179.83" y1="93.00" x2="179.83" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<text x="113.33" y="44.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Multi-head</text>
+<text x="113.33" y="60.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">8 Q, 8 KV</text>
+<text x="113.33" y="210.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">KV cache: 8 units</text>
+<rect x="266.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="285.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="304.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="323.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="342.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="361.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="380.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="399.00" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="291.50" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="302.00" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<rect x="367.50" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="378.00" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<line x1="273.50" y1="93.00" x2="302.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="292.50" y1="93.00" x2="302.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="311.50" y1="93.00" x2="302.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="330.50" y1="93.00" x2="302.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="349.50" y1="93.00" x2="378.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="368.50" y1="93.00" x2="378.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="387.50" y1="93.00" x2="378.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="406.50" y1="93.00" x2="378.00" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<text x="340.00" y="44.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Grouped-query</text>
+<text x="340.00" y="60.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">8 Q, 2 KV</text>
+<text x="340.00" y="210.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">KV cache: 2 units</text>
+<line x1="226.67" y1="36.00" x2="226.67" y2="224.00" stroke="#d9d4cc" stroke-width="1"/>
+<rect x="492.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="511.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="530.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="549.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="568.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="587.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="606.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="625.67" y="78.00" width="15.00" height="15.00" rx="0" fill="#f3d9e0" stroke="#A80036" stroke-width="1"/>
+<rect x="556.17" y="168.00" width="21.00" height="15.00" rx="0" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="566.67" y="175.50" font-size="8" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">KV</text>
+<line x1="500.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="519.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="538.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="557.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="576.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="595.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="614.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<line x1="633.17" y1="93.00" x2="566.67" y2="168.00" stroke="#c9b8bf" stroke-width="0.9"/>
+<text x="566.67" y="44.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Multi-query</text>
+<text x="566.67" y="60.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">8 Q, 1 KV</text>
+<text x="566.67" y="210.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">KV cache: 1 unit</text>
+<line x1="453.33" y1="36.00" x2="453.33" y2="224.00" stroke="#d9d4cc" stroke-width="1"/>
+<text x="340.00" y="30.00" font-size="12" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Query heads (top) can share key/value heads (bottom).</text>
+</svg>

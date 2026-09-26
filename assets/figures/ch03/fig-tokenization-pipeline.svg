@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<rect x="205.00" y="34.00" width="190.00" height="40.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.3"/>
+<text x="300.00" y="54.00" font-size="15" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">"The cat sat"</text>
+<text x="40.00" y="54.00" font-size="12" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">text</text>
+<line x1="300.00" y1="78.00" x2="300.00" y2="112.00" stroke="#8a8a8a" stroke-width="1.7" marker-end="url(#a-gray)"/>
+<text x="310.00" y="96.00" font-size="11" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">tokenize (BPE)</text>
+<rect x="152.00" y="126.00" width="96.00" height="38.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="200.00" y="145.00" font-size="14" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">The</text>
+<rect x="292.00" y="126.00" width="96.00" height="38.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="340.00" y="145.00" font-size="14" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">␣cat</text>
+<rect x="432.00" y="126.00" width="96.00" height="38.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="480.00" y="145.00" font-size="14" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">␣sat</text>
+<text x="40.00" y="145.00" font-size="12" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">tokens</text>
+<line x1="200.00" y1="166.00" x2="200.00" y2="208.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="340.00" y1="166.00" x2="340.00" y2="208.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="480.00" y1="166.00" x2="480.00" y2="208.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<text x="538.00" y="187.00" font-size="11" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">look up ID</text>
+<rect x="152.00" y="222.00" width="96.00" height="38.00" rx="5" fill="#f3d9e0" stroke="#A80036" stroke-width="1.1"/>
+<text x="200.00" y="241.00" font-size="14" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">464</text>
+<rect x="292.00" y="222.00" width="96.00" height="38.00" rx="5" fill="#f3d9e0" stroke="#A80036" stroke-width="1.1"/>
+<text x="340.00" y="241.00" font-size="14" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">3797</text>
+<rect x="432.00" y="222.00" width="96.00" height="38.00" rx="5" fill="#f3d9e0" stroke="#A80036" stroke-width="1.1"/>
+<text x="480.00" y="241.00" font-size="14" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">3332</text>
+<text x="40.00" y="241.00" font-size="12" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">token IDs</text>
+<text x="300.00" y="284.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">␣ marks the space that belongs to the token.</text>
+</svg>

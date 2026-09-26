@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<line x1="90.00" y1="350.00" x2="392.40" y2="350.00" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#a-gray)"/>
+<line x1="90.00" y1="350.00" x2="90.00" y2="36.40" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#a-gray)"/>
+<text x="244.00" y="384.00" font-size="12" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">“animal-ness”  (dimension 1)</text>
+<text x="46.0" y="196.0" font-size="12" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" transform="rotate(-90 46.0 196.0)">“living-ness”  (dimension 2)</text>
+<line x1="230.00" y1="350.00" x2="230.00" y2="42.00" stroke="#d7d2c8" stroke-width="1" stroke-dasharray="2,3"/>
+<line x1="90.00" y1="210.00" x2="392.40" y2="210.00" stroke="#d7d2c8" stroke-width="1" stroke-dasharray="2,3"/>
+<line x1="370.00" y1="350.00" x2="370.00" y2="42.00" stroke="#d7d2c8" stroke-width="1" stroke-dasharray="2,3"/>
+<line x1="90.00" y1="70.00" x2="392.40" y2="70.00" stroke="#d7d2c8" stroke-width="1" stroke-dasharray="2,3"/>
+<line x1="90.00" y1="350.00" x2="344.80" y2="103.60" stroke="#A80036" stroke-width="2.0" marker-end="url(#a-red)"/>
+<circle cx="344.80" cy="103.60" r="3.40" fill="#A80036" stroke="none" stroke-width="0"/>
+<text x="352.80" y="93.60" font-size="13.5" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">cat</text>
+<line x1="90.00" y1="350.00" x2="339.20" y2="126.00" stroke="#A80036" stroke-width="2.0" marker-end="url(#a-red)"/>
+<circle cx="339.20" cy="126.00" r="3.40" fill="#A80036" stroke="none" stroke-width="0"/>
+<text x="349.20" y="142.00" font-size="13.5" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">dog</text>
+<line x1="90.00" y1="350.00" x2="123.60" y2="112.00" stroke="#4a4a4a" stroke-width="2.0" marker-end="url(#a-char)"/>
+<circle cx="123.60" cy="112.00" r="3.40" fill="#4a4a4a" stroke="none" stroke-width="0"/>
+<text x="133.60" y="100.00" font-size="13.5" fill="#4a4a4a" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">king</text>
+<line x1="90.00" y1="350.00" x2="129.20" y2="316.40" stroke="#4a4a4a" stroke-width="2.0" marker-end="url(#a-char)"/>
+<circle cx="129.20" cy="316.40" r="3.40" fill="#4a4a4a" stroke="none" stroke-width="0"/>
+<text x="141.20" y="308.40" font-size="13.5" fill="#4a4a4a" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">car</text>
+<ellipse cx="342.0" cy="114.8" rx="30" ry="34" fill="none" stroke="#A80036" stroke-width="1.1" stroke-dasharray="3,3" opacity="0.7"/>
+<text x="342.00" y="68.80" font-size="11.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">similar words</text>
+<text x="280.00" y="408.00" font-size="11" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">Toy 2-D space. A real model uses several thousand dimensions at once.</text>
+</svg>

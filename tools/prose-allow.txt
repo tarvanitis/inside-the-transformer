@@ -1,0 +1,13 @@
+# Explicit B18 exemptions. Format:  path:line   # reason
+# Guard 17 of humanize-prose: a semicolon is correct as a higher-level separator
+# in a list whose items carry internal punctuation. Every line below was read and
+# judged individually. No category-wide exemptions -- if it is not listed, it fails.
+
+part-1/ch-01-what-is-a-transformer.md:78      # tail of the multi-line model-family list
+part-3/ch-10-build-gpt.md:127                 # list of three parallel "replace X with Y" instructions
+part-4/ch-15-preferences.md:9                 # three-item list: reward model; RLHF/PPO; DPO
+part-4/ch-15-preferences.md:10                # continuation of the same three-item list
+backmatter/appendix-a-glossary.md:10          # parallel notation definitions, each quoted
+
+# Spelling: proper nouns keeping their published/vendor spelling.
+part-5/ch-19-agents.md:370                    # "Arize Phoenix" is a product name

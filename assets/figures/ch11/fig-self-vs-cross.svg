@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="320.00" y="28.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Self-attention and cross-attention are the same module, fed different inputs.</text>
+<rect x="16.00" y="50.00" width="300.00" height="232.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="166.00" y="66.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Self-attention</text>
+<rect x="91.00" y="74.00" width="150.00" height="32.00" rx="5" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="166.00" y="90.00" font-size="11" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">sequence x</text>
+<rect x="76.00" y="190.00" width="180.00" height="32.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="166.00" y="206.00" font-size="11" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">attention module</text>
+<line x1="137.00" y1="106.00" x2="108.00" y2="188.00" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#a-char)"/>
+<text x="100.00" y="150.00" font-size="11" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q</text>
+<line x1="166.00" y1="106.00" x2="166.00" y2="188.00" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#a-char)"/>
+<text x="174.00" y="150.00" font-size="11" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">K</text>
+<line x1="195.00" y1="106.00" x2="224.00" y2="188.00" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#a-char)"/>
+<text x="232.00" y="150.00" font-size="11" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">V</text>
+<line x1="166.00" y1="222.00" x2="166.00" y2="240.00" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<text x="166.00" y="250.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">output</text>
+<text x="166.00" y="262.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="italic" dominant-baseline="middle">Q = K = V = x</text>
+<rect x="324.00" y="50.00" width="300.00" height="232.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="474.00" y="66.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Cross-attention</text>
+<rect x="350.00" y="74.00" width="120.00" height="32.00" rx="5" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="410.00" y="90.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">decoder state</text>
+<rect x="480.00" y="74.00" width="120.00" height="32.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="540.00" y="90.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">encoder output</text>
+<rect x="384.00" y="190.00" width="180.00" height="32.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="474.00" y="206.00" font-size="11" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">attention module</text>
+<line x1="410.00" y1="106.00" x2="434.00" y2="188.00" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<text x="404.00" y="150.00" font-size="11" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Q</text>
+<line x1="526.00" y1="106.00" x2="504.00" y2="188.00" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#a-char)"/>
+<text x="548.00" y="150.00" font-size="11" fill="#4a4a4a" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">K, V</text>
+<line x1="474.00" y1="222.00" x2="474.00" y2="240.00" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<text x="474.00" y="250.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">output</text>
+<text x="474.00" y="262.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="italic" dominant-baseline="middle">Q from decoder,  K, V from encoder</text>
+</svg>

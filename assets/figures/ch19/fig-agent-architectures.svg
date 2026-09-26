@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="320.00" y="28.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Two agent architectures: start simple, add structure only when needed.</text>
+<rect x="16.00" y="52.00" width="300.00" height="226.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="166.00" y="68.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Single agent</text>
+<rect x="101.00" y="108.00" width="130.00" height="30.00" rx="5" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="166.00" y="123.00" font-size="10.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">LLM agent</text>
+<path d="M252.00,136.86 A16,16 0 1 0 228.96,128.47" fill="none" stroke="#6b6b6b" stroke-width="1.3"/>
+<text x="270.00" y="112.00" font-size="8.5" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">loop</text>
+<rect x="22.00" y="214.00" width="80.00" height="26.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="62.00" y="227.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">search</text>
+<line x1="126.00" y1="138.00" x2="62.00" y2="212.00" stroke="#8a8a8a" stroke-width="1.1" marker-end="url(#a-gray)"/>
+<rect x="116.00" y="214.00" width="80.00" height="26.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="156.00" y="227.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">run code</text>
+<line x1="166.00" y1="138.00" x2="156.00" y2="212.00" stroke="#8a8a8a" stroke-width="1.1" marker-end="url(#a-gray)"/>
+<rect x="210.00" y="214.00" width="80.00" height="26.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="250.00" y="227.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">files</text>
+<line x1="206.00" y1="138.00" x2="250.00" y2="212.00" stroke="#8a8a8a" stroke-width="1.1" marker-end="url(#a-gray)"/>
+<text x="166.00" y="254.00" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">one loop, one tool set</text>
+<rect x="324.00" y="52.00" width="300.00" height="226.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="474.00" y="68.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Orchestrator + sub-agents</text>
+<rect x="404.00" y="80.00" width="140.00" height="30.00" rx="5" fill="#FEFECE" stroke="#A80036" stroke-width="1.1"/>
+<text x="474.00" y="95.00" font-size="10.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">orchestrator</text>
+<rect x="342.00" y="176.00" width="84.00" height="28.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="384.00" y="190.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">research</text>
+<line x1="422.00" y1="110.00" x2="384.00" y2="174.00" stroke="#8a8a8a" stroke-width="1.1" marker-end="url(#a-gray)"/>
+<rect x="436.00" y="176.00" width="84.00" height="28.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="478.00" y="190.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">analyst</text>
+<line x1="474.00" y1="110.00" x2="478.00" y2="174.00" stroke="#8a8a8a" stroke-width="1.1" marker-end="url(#a-gray)"/>
+<rect x="530.00" y="176.00" width="84.00" height="28.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="572.00" y="190.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">writer</text>
+<line x1="526.00" y1="110.00" x2="572.00" y2="174.00" stroke="#8a8a8a" stroke-width="1.1" marker-end="url(#a-gray)"/>
+<text x="474.00" y="224.00" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">workers specialize, results return to the supervisor</text>
+<text x="474.00" y="254.00" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">use only when one agent hits its limits</text>
+</svg>

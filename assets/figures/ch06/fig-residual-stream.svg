@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" width="640" height="240" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="320.00" y="32.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Each sub-layer reads from the stream, computes a correction, and adds it back.</text>
+<line x1="36.00" y1="92.00" x2="604.00" y2="92.00" stroke="#A80036" stroke-width="3.2" marker-end="url(#a-red)"/>
+<text x="30.00" y="78.00" font-size="12" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">x₀</text>
+<text x="600.00" y="78.00" font-size="12" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">x_final</text>
+<text x="150.00" y="78.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">residual stream</text>
+<line x1="150.00" y1="92.00" x2="144.00" y2="167.00" stroke="#4a4a4a" stroke-width="1.4"/>
+<rect x="136.00" y="150.00" width="128.00" height="34.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="200.00" y="167.00" font-size="11.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Multi-head attention</text>
+<line x1="256.00" y1="167.00" x2="250.00" y2="98.00" stroke="#4a4a4a" stroke-width="1.4" marker-end="url(#a-char)"/>
+<circle cx="250.00" cy="92.00" r="9.00" fill="#ffffff" stroke="#A80036" stroke-width="1.6"/>
+<text x="250.00" y="92.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">+</text>
+<line x1="380.00" y1="92.00" x2="374.00" y2="167.00" stroke="#4a4a4a" stroke-width="1.4"/>
+<rect x="366.00" y="150.00" width="128.00" height="34.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="430.00" y="167.00" font-size="11.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Feed-forward</text>
+<line x1="486.00" y1="167.00" x2="480.00" y2="98.00" stroke="#4a4a4a" stroke-width="1.4" marker-end="url(#a-char)"/>
+<circle cx="480.00" cy="92.00" r="9.00" fill="#ffffff" stroke="#A80036" stroke-width="1.6"/>
+<text x="480.00" y="92.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">+</text>
+<text x="320.00" y="226.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">The line runs straight through each +, so the signal (and its gradient) survives many layers.</text>
+</svg>

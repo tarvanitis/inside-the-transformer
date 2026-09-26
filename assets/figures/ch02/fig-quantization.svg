@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" width="620" height="260" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="310.00" y="30.00" font-size="13" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Quantization: round each weight to the nearest step on a coarse grid</text>
+<line x1="44.00" y1="150.00" x2="576.00" y2="150.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<line x1="60.00" y1="144.00" x2="60.00" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="91.25" y1="144.00" x2="91.25" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="122.50" y1="144.00" x2="122.50" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="153.75" y1="144.00" x2="153.75" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="185.00" y1="144.00" x2="185.00" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="216.25" y1="144.00" x2="216.25" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="247.50" y1="144.00" x2="247.50" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="278.75" y1="144.00" x2="278.75" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="310.00" y1="144.00" x2="310.00" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="341.25" y1="144.00" x2="341.25" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="372.50" y1="144.00" x2="372.50" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="403.75" y1="144.00" x2="403.75" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="435.00" y1="144.00" x2="435.00" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="466.25" y1="144.00" x2="466.25" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="497.50" y1="144.00" x2="497.50" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="528.75" y1="144.00" x2="528.75" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="560.00" y1="144.00" x2="560.00" y2="156.00" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="310.00" y="176.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">0</text>
+<text x="60.00" y="176.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">−max</text>
+<text x="560.00" y="176.00" font-size="10.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+max</text>
+<circle cx="388.00" cy="116.00" r="3.60" fill="none" stroke="#4a4a4a" stroke-width="1.6"/>
+<text x="388.00" y="102.00" font-size="9.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+0.312</text>
+<line x1="388.00" y1="120.00" x2="372.50" y2="142.00" stroke="#A80036" stroke-width="1.4" marker-end="url(#a-red)"/>
+<circle cx="372.50" cy="146.00" r="3.60" fill="#A80036" stroke="none" stroke-width="0"/>
+<circle cx="87.25" cy="116.00" r="3.60" fill="none" stroke="#4a4a4a" stroke-width="1.6"/>
+<text x="87.25" y="102.00" font-size="9.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">-0.891</text>
+<line x1="87.25" y1="120.00" x2="91.25" y2="142.00" stroke="#A80036" stroke-width="1.4" marker-end="url(#a-red)"/>
+<circle cx="91.25" cy="146.00" r="3.60" fill="#A80036" stroke="none" stroke-width="0"/>
+<circle cx="446.00" cy="116.00" r="3.60" fill="none" stroke="#4a4a4a" stroke-width="1.6"/>
+<text x="446.00" y="102.00" font-size="9.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">+0.544</text>
+<line x1="446.00" y1="120.00" x2="435.00" y2="142.00" stroke="#A80036" stroke-width="1.4" marker-end="url(#a-red)"/>
+<circle cx="435.00" cy="146.00" r="3.60" fill="#A80036" stroke="none" stroke-width="0"/>
+<circle cx="278.25" cy="116.00" r="3.60" fill="none" stroke="#4a4a4a" stroke-width="1.6"/>
+<text x="278.25" y="102.00" font-size="9.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">-0.127</text>
+<line x1="278.25" y1="120.00" x2="278.75" y2="142.00" stroke="#A80036" stroke-width="1.4" marker-end="url(#a-red)"/>
+<circle cx="278.75" cy="146.00" r="3.60" fill="#A80036" stroke="none" stroke-width="0"/>
+<text x="60.00" y="238.00" font-size="10.5" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">hollow = original float    ● = nearest grid value    the small gap is the rounding error</text>
+<text x="60.00" y="252.00" font-size="10.5" fill="#6b6b6b" text-anchor="start" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">(grid shown coarse for clarity; int8 provides 256 steps, int4 only 16)</text>
+</svg>

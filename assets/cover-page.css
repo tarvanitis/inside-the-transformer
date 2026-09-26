@@ -1,0 +1,4 @@
+/* Isolated stylesheet for the full-bleed cover page render (build_cover_pdf).
+   Applied in a separate WeasyPrint call — never mixed with classic-book.css. */
+@page { size: A4; margin: 0; }
+html, body { margin: 0; padding: 0; }

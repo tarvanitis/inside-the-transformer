@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" width="640" height="250" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="320.00" y="30.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Pattern:  … A  B  …  A  →  predict B  (what followed A last time)</text>
+<rect x="70.00" y="138.00" width="44.00" height="34.00" rx="4" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="92.00" y="155.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Mr</text>
+<rect x="134.00" y="138.00" width="82.00" height="34.00" rx="4" fill="#faf6f1" stroke="#c9c4b8" stroke-width="1.2"/>
+<text x="175.00" y="155.00" font-size="13" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Dursley</text>
+<text x="250.00" y="155.00" font-size="16" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">…</text>
+<rect x="284.00" y="138.00" width="44.00" height="34.00" rx="4" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="306.00" y="155.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">Mr</text>
+<rect x="348.00" y="138.00" width="40.00" height="34.00" rx="4" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="368.00" y="155.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">?</text>
+<path d="M306.0,136.0 Q199.0,62.0 92.0,136.0" fill="none" stroke="#A80036" stroke-width="1.8" marker-end="url(#a-red)"/>
+<text x="199.00" y="48.00" font-size="11" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">① find the earlier “Mr”</text>
+<path d="M92.0,136.0 Q133.5,106.0 175.0,136.0" fill="none" stroke="#4a4a4a" stroke-width="1.8" marker-end="url(#a-char)"/>
+<text x="133.50" y="94.00" font-size="10.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">② what followed it</text>
+<line x1="368.00" y1="174.00" x2="368.00" y2="190.00" stroke="#A80036" stroke-width="1.5" marker-end="url(#a-red)"/>
+<rect x="326.00" y="192.00" width="84.00" height="28.00" rx="4" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="368.00" y="206.00" font-size="12" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">Dursley</text>
+<text x="368.00" y="234.00" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">copied forward</text>
+</svg>

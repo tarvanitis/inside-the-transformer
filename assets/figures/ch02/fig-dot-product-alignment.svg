@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<line x1="16.00" y1="180.00" x2="190.67" y2="180.00" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="103.33" y1="40.00" x2="103.33" y2="250.00" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="103.33" y1="180.00" x2="191.73" y2="166.40" stroke="#4a4a4a" stroke-width="2.2" marker-end="url(#a-char)"/>
+<line x1="103.33" y1="180.00" x2="171.33" y2="132.40" stroke="#A80036" stroke-width="2.2" marker-end="url(#a-red)"/>
+<path d="M125.08,176.65 A22,22 0 0 0 121.36,167.38" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+<text x="197.73" y="160.40" font-size="14" fill="#4a4a4a" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">a</text>
+<text x="179.33" y="126.40" font-size="14" fill="#A80036" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">b</text>
+<text x="103.33" y="268.00" font-size="14" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">a · b &gt; 0</text>
+<text x="103.33" y="40.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">point the same way</text>
+<line x1="222.67" y1="180.00" x2="397.33" y2="180.00" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="310.00" y1="40.00" x2="310.00" y2="250.00" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="310.00" y1="180.00" x2="398.40" y2="166.40" stroke="#4a4a4a" stroke-width="2.2" marker-end="url(#a-char)"/>
+<line x1="310.00" y1="180.00" x2="279.40" y2="98.40" stroke="#A80036" stroke-width="2.2" marker-end="url(#a-red)"/>
+<path d="M331.74,176.65 A22,22 0 0 0 302.28,159.40" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+<text x="404.40" y="160.40" font-size="14" fill="#4a4a4a" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">a</text>
+<text x="271.40" y="92.40" font-size="14" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">b</text>
+<path d="M321.86,178.18 L317.65,166.94 L305.79,168.76" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+<text x="310.00" y="268.00" font-size="14" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">a · b = 0</text>
+<text x="310.00" y="40.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">perpendicular</text>
+<line x1="206.67" y1="30.00" x2="206.67" y2="285.00" stroke="#d9d4cc" stroke-width="1"/>
+<line x1="429.33" y1="180.00" x2="604.00" y2="180.00" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="516.67" y1="40.00" x2="516.67" y2="250.00" stroke="#d7d2c8" stroke-width="1"/>
+<line x1="516.67" y1="180.00" x2="605.07" y2="166.40" stroke="#4a4a4a" stroke-width="2.2" marker-end="url(#a-char)"/>
+<line x1="516.67" y1="180.00" x2="441.87" y2="231.00" stroke="#A80036" stroke-width="2.2" marker-end="url(#a-red)"/>
+<path d="M538.41,176.65 A22,22 0 0 1 498.49,192.39" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+<text x="611.07" y="160.40" font-size="14" fill="#4a4a4a" text-anchor="start" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">a</text>
+<text x="433.87" y="245.00" font-size="14" fill="#A80036" text-anchor="end" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">b</text>
+<text x="516.67" y="268.00" font-size="14" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="bold" font-style="normal" dominant-baseline="middle">a · b &lt; 0</text>
+<text x="516.67" y="40.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">point apart</text>
+<line x1="413.33" y1="30.00" x2="413.33" y2="285.00" stroke="#d9d4cc" stroke-width="1"/>
+</svg>

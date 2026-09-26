@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<rect x="16.00" y="20.00" width="300.00" height="300.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="166.00" y="36.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Post-norm  (original 2017)</text>
+<text x="128.00" y="70.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">x</text>
+<line x1="128.00" y1="78.00" x2="128.00" y2="92.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<rect x="69.00" y="92.00" width="118.00" height="30.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="128.00" y="107.00" font-size="11.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Attention</text>
+<line x1="128.00" y1="122.00" x2="128.00" y2="150.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<circle cx="128.00" cy="159.00" r="9.00" fill="#ffffff" stroke="#A80036" stroke-width="1.6"/>
+<text x="128.00" y="159.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">+</text>
+<line x1="128.00" y1="168.00" x2="128.00" y2="196.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<rect x="69.00" y="196.00" width="118.00" height="30.00" rx="5" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="128.00" y="211.00" font-size="11.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Norm</text>
+<line x1="128.00" y1="226.00" x2="128.00" y2="250.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<text x="128.00" y="262.00" font-size="12" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">out</text>
+<line x1="128.00" y1="70.00" x2="250.00" y2="70.00" stroke="#4a4a4a" stroke-width="1.3"/>
+<line x1="250.00" y1="70.00" x2="250.00" y2="159.00" stroke="#4a4a4a" stroke-width="1.3"/>
+<line x1="250.00" y1="159.00" x2="137.00" y2="159.00" stroke="#4a4a4a" stroke-width="1.3" marker-end="url(#a-char)"/>
+<text x="128.00" y="300.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">Norm wraps the residual add</text>
+<rect x="336.00" y="20.00" width="288.00" height="300.00" rx="6" fill="#faf6f1" stroke="#d9d4cc" stroke-width="1.0"/>
+<text x="480.00" y="36.00" font-size="12.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Pre-norm  (modern default)</text>
+<text x="440.00" y="70.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">x</text>
+<line x1="440.00" y1="78.00" x2="440.00" y2="92.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<rect x="381.00" y="92.00" width="118.00" height="30.00" rx="5" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="440.00" y="107.00" font-size="11.5" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">Norm</text>
+<line x1="440.00" y1="122.00" x2="440.00" y2="140.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<rect x="381.00" y="140.00" width="118.00" height="30.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="440.00" y="155.00" font-size="11.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Attention</text>
+<line x1="440.00" y1="170.00" x2="440.00" y2="205.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<circle cx="440.00" cy="214.00" r="9.00" fill="#ffffff" stroke="#A80036" stroke-width="1.6"/>
+<text x="440.00" y="214.00" font-size="13" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">+</text>
+<line x1="440.00" y1="223.00" x2="440.00" y2="250.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<text x="440.00" y="262.00" font-size="12" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Cursor','Courier New','DejaVu Sans Mono',monospace" font-weight="normal" font-style="normal" dominant-baseline="middle">out</text>
+<line x1="440.00" y1="70.00" x2="566.00" y2="70.00" stroke="#4a4a4a" stroke-width="1.3"/>
+<line x1="566.00" y1="70.00" x2="566.00" y2="214.00" stroke="#4a4a4a" stroke-width="1.3"/>
+<line x1="566.00" y1="214.00" x2="449.00" y2="214.00" stroke="#4a4a4a" stroke-width="1.3" marker-end="url(#a-char)"/>
+<text x="440.00" y="300.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">the skip carries the un-normalized x</text>
+</svg>

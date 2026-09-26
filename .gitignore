@@ -1,0 +1,25 @@
+# Build artifacts. The released PDF is attached to a GitHub Release, not committed.
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node toolchain for MathJax and mermaid (installed with `npm install` in tools/math)
+node_modules/
+
+# PNG previews of the figures. Regenerate with: python3 tools/figures/gen_chNN_figures.py --png
+assets/figures/*/_preview/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Machine-local Claude Code settings. The shared skill in .claude/skills/ IS tracked.
+.claude/settings.local.json

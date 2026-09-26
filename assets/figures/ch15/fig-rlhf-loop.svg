@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 210" width="700" height="210" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<text x="350.00" y="24.00" font-size="11" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">The RLHF loop: policy, reward model, and the KL leash to the frozen reference.</text>
+<rect x="26.00" y="57.50" width="60.00" height="33.00" rx="6" fill="#FEFECE" stroke="#A80036" stroke-width="1.2"/>
+<text x="56.00" y="74.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">prompt x</text>
+<rect x="122.00" y="57.50" width="108.00" height="33.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="176.00" y="74.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">policy π_θ</text>
+<rect x="260.00" y="57.50" width="104.00" height="33.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="312.00" y="74.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">response y</text>
+<rect x="393.00" y="50.00" width="118.00" height="48.00" rx="6" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="452.00" y="67.50" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">reward model</text>
+<text x="452.00" y="80.50" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">→ r(x, y)</text>
+<rect x="558.00" y="57.50" width="96.00" height="33.00" rx="6" fill="#f3d9e0" stroke="#A80036" stroke-width="1.2"/>
+<text x="606.00" y="74.00" font-size="10" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">PPO update</text>
+<line x1="88.00" y1="74.00" x2="120.00" y2="74.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="232.00" y1="74.00" x2="258.00" y2="74.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="366.00" y1="74.00" x2="391.00" y2="74.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="513.00" y1="74.00" x2="556.00" y2="74.00" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#a-gray)"/>
+<line x1="606.00" y1="94.00" x2="606.00" y2="132.00" stroke="#4a4a4a" stroke-width="1.4" marker-end="url(#a-char)"/>
+<line x1="606.00" y1="132.00" x2="176.00" y2="132.00" stroke="#4a4a4a" stroke-width="1.4"/>
+<line x1="176.00" y1="132.00" x2="176.00" y2="94.00" stroke="#4a4a4a" stroke-width="1.4" marker-end="url(#a-char)"/>
+<text x="390.00" y="125.00" font-size="8.5" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">update the policy toward higher reward</text>
+<rect x="265.00" y="162.00" width="150.00" height="26.00" rx="6" fill="#f0eee8" stroke="#4a4a4a" stroke-width="1.2"/>
+<text x="340.00" y="175.00" font-size="9.5" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">frozen reference π_ref</text>
+<line x1="415.00" y1="168.00" x2="585.00" y2="92.00" stroke="#A80036" stroke-width="1.3" marker-end="url(#a-red)" stroke-dasharray="4,3"/>
+<text x="520.00" y="150.00" font-size="9" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">KL penalty</text>
+</svg>

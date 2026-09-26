@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif">
+<defs><marker id="a-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A80036"/></marker><marker id="a-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1b1b1b"/></marker><marker id="a-char" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a4a4a"/></marker><marker id="a-gray" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/></marker></defs>
+<rect x="46.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#a80036" stroke="#ffffff" stroke-width="1"/>
+<rect x="63.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="80.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="97.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="46.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#f6e6eb" stroke="#ffffff" stroke-width="1"/>
+<rect x="63.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#b11a4a" stroke="#ffffff" stroke-width="1"/>
+<rect x="80.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="97.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="46.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#f6e6eb" stroke="#ffffff" stroke-width="1"/>
+<rect x="63.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#f6e6eb" stroke="#ffffff" stroke-width="1"/>
+<rect x="80.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#b9335e" stroke="#ffffff" stroke-width="1"/>
+<rect x="97.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="46.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#fbf2f5" stroke="#ffffff" stroke-width="1"/>
+<rect x="63.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#fbf2f5" stroke="#ffffff" stroke-width="1"/>
+<rect x="80.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#f6e6eb" stroke="#ffffff" stroke-width="1"/>
+<rect x="97.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#b9335e" stroke="#ffffff" stroke-width="1"/>
+<rect x="46.00" y="74.00" width="68.00" height="68.00" rx="0" fill="none" stroke="#ccc7bc" stroke-width="1"/>
+<text x="80.00" y="54.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">head 1</text>
+<text x="80.00" y="156.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">subject–verb</text>
+<rect x="210.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#a80036" stroke="#ffffff" stroke-width="1"/>
+<rect x="227.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="244.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="261.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="210.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#d4809a" stroke="#ffffff" stroke-width="1"/>
+<rect x="227.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#d4809a" stroke="#ffffff" stroke-width="1"/>
+<rect x="244.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="261.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="210.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#e2abbd" stroke="#ffffff" stroke-width="1"/>
+<rect x="227.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#e2abbd" stroke="#ffffff" stroke-width="1"/>
+<rect x="244.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#e1a8bb" stroke="#ffffff" stroke-width="1"/>
+<rect x="261.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="210.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#e9bfcd" stroke="#ffffff" stroke-width="1"/>
+<rect x="227.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#e9bfcd" stroke="#ffffff" stroke-width="1"/>
+<rect x="244.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#e9bfcd" stroke="#ffffff" stroke-width="1"/>
+<rect x="261.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#e9bfcd" stroke="#ffffff" stroke-width="1"/>
+<rect x="210.00" y="74.00" width="68.00" height="68.00" rx="0" fill="none" stroke="#ccc7bc" stroke-width="1"/>
+<text x="244.00" y="54.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">head 2</text>
+<text x="244.00" y="156.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">similarity</text>
+<rect x="374.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#a80036" stroke="#ffffff" stroke-width="1"/>
+<rect x="391.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="408.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="425.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="374.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#eeccd7" stroke="#ffffff" stroke-width="1"/>
+<rect x="391.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#b9335e" stroke="#ffffff" stroke-width="1"/>
+<rect x="408.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="425.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="374.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="391.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#e5b2c3" stroke="#ffffff" stroke-width="1"/>
+<rect x="408.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#c24c72" stroke="#ffffff" stroke-width="1"/>
+<rect x="425.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="374.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="391.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="408.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#e5b2c3" stroke="#ffffff" stroke-width="1"/>
+<rect x="425.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#c24c72" stroke="#ffffff" stroke-width="1"/>
+<rect x="374.00" y="74.00" width="68.00" height="68.00" rx="0" fill="none" stroke="#ccc7bc" stroke-width="1"/>
+<text x="408.00" y="54.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">head 3</text>
+<text x="408.00" y="156.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">nearby</text>
+<rect x="538.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#a80036" stroke="#ffffff" stroke-width="1"/>
+<rect x="555.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="572.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="589.00" y="74.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="538.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#b9335e" stroke="#ffffff" stroke-width="1"/>
+<rect x="555.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#eeccd7" stroke="#ffffff" stroke-width="1"/>
+<rect x="572.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="589.00" y="91.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="538.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#c24c72" stroke="#ffffff" stroke-width="1"/>
+<rect x="555.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="572.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#e5b2c3" stroke="#ffffff" stroke-width="1"/>
+<rect x="589.00" y="108.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="538.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#cb6686" stroke="#ffffff" stroke-width="1"/>
+<rect x="555.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="572.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<rect x="589.00" y="125.00" width="17.00" height="17.00" rx="0" fill="#dc99af" stroke="#ffffff" stroke-width="1"/>
+<rect x="538.00" y="74.00" width="68.00" height="68.00" rx="0" fill="none" stroke="#ccc7bc" stroke-width="1"/>
+<text x="572.00" y="54.00" font-size="11.5" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">head 4</text>
+<text x="572.00" y="156.00" font-size="10" fill="#6b6b6b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="italic" dominant-baseline="middle">brackets</text>
+<line x1="80.00" y1="172.00" x2="572.00" y2="172.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<line x1="80.00" y1="166.00" x2="80.00" y2="172.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<line x1="244.00" y1="166.00" x2="244.00" y2="172.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<line x1="408.00" y1="166.00" x2="408.00" y2="172.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<line x1="572.00" y1="166.00" x2="572.00" y2="172.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<line x1="340.00" y1="172.00" x2="340.00" y2="186.00" stroke="#8a8a8a" stroke-width="1.2"/>
+<rect x="265.00" y="186.00" width="150.00" height="30.00" rx="5" fill="#faf6f1" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="340.00" y="201.00" font-size="12" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">concatenate heads</text>
+<line x1="340.00" y1="216.00" x2="340.00" y2="230.00" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#a-gray)"/>
+<rect x="265.00" y="230.00" width="150.00" height="30.00" rx="5" fill="#FEFECE" stroke="#4a4a4a" stroke-width="1.1"/>
+<text x="340.00" y="245.00" font-size="12" fill="#1b1b1b" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">mix with W_O</text>
+<line x1="340.00" y1="260.00" x2="340.00" y2="274.00" stroke="#A80036" stroke-width="1.6" marker-end="url(#a-red)"/>
+<text x="340.00" y="286.00" font-size="12" fill="#A80036" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="bold" font-style="normal" dominant-baseline="middle">context-aware output</text>
+<text x="340.00" y="26.00" font-size="12" fill="#4a4a4a" text-anchor="middle" font-family="'TeX Gyre Termes','Liberation Serif','DejaVu Serif',Georgia,serif" font-weight="normal" font-style="normal" dominant-baseline="middle">Every head sees the whole input and learns its own attention pattern.</text>
+</svg>

@@ -1,0 +1,219 @@
+/* classic-book.css — "Inside the Transformer", classic technical-book theme for WeasyPrint.
+   Pipeline: pandoc --mathml -t html5  →  WeasyPrint (see book/build-pdf.py).
+   Fonts degrade gracefully: install `fonts-texgyre` for the premium look; otherwise DejaVu is used. */
+
+@page {
+  size: A4;
+  margin: 24mm 22mm 20mm 22mm;
+  @top-center    { content: string(chaptitle);
+                   font-family: "TeX Gyre Termes","Liberation Serif","DejaVu Serif",serif;
+                   font-style: italic; font-size: 8.5pt; color: #666; }
+  @bottom-center { content: counter(page);
+                   font-family: "TeX Gyre Termes","Liberation Serif","DejaVu Serif",serif;
+                   font-size: 9pt; color: #333; }
+}
+@page :first { @top-center { content: none; } @bottom-center { content: none; } }
+
+html { font-size: 10.8pt; }
+body {
+  font-family: "TeX Gyre Termes", "Liberation Serif", "DejaVu Serif", serif;
+  line-height: 1.48;
+  text-align: justify;
+  hyphens: auto;
+  color: #1b1b1b;
+  counter-reset: chapter;
+}
+
+/* ---- Chapter (H1) ---- */
+h1 {
+  string-set: chaptitle content();
+  counter-increment: chapter;
+  counter-reset: section;
+  break-before: page;
+  font-weight: normal;
+  font-size: 25pt;
+  line-height: 1.12;
+  margin: 0 0 4pt 0;
+  padding-bottom: 8pt;
+  border-bottom: 1.5pt solid #A80036;   /* dark-red accent */
+}
+h1::before {
+  content: "Chapter " counter(chapter);
+  display: block;
+  font-size: 10pt; font-weight: bold;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: #A80036; margin-bottom: 12pt;
+}
+/* chapters always start on a new page; front matter (.frontmatter) precedes them */
+
+/* ---- Sections ---- */
+h2 {
+  counter-increment: section;
+  font-size: 15pt; font-weight: bold;
+  margin: 20pt 0 6pt; break-after: avoid;
+}
+h2::before { content: counter(chapter) "." counter(section) "\2002"; color: #A80036; }
+h3 { font-size: 11.5pt; font-weight: bold; margin: 14pt 0 3pt; break-after: avoid; }
+
+/* Headings must never inherit body justification — a title long enough to wrap
+   otherwise stretches into gaping word gaps. */
+h1, h2, h3, h4, h5, h6 { text-align: left; }
+
+/* ---- Front matter (preface etc.): a div.frontmatter suppresses chapter numbering ---- */
+.frontmatter h1 { counter-increment: none; counter-reset: none; break-before: page;
+  font-size: 23pt; padding-bottom: 6pt; }
+.frontmatter h1::before { content: none; }
+.frontmatter h2 { counter-increment: none; font-size: 13pt; }
+.frontmatter h2::before { content: none; }
+.frontmatter table { width: auto; table-layout: auto; margin: 8pt 0; }
+.frontmatter col { width: auto !important; }   /* override pandoc's proportional <col> widths */
+.frontmatter table th, .frontmatter table td { border: none; padding: 3pt 10pt 3pt 0; vertical-align: middle; }
+/* shrink the icon column to its content (width:1% + nowrap), let the text column take the rest */
+.frontmatter td:first-child, .frontmatter th:first-child { width: 1%; white-space: nowrap; padding-right: 14pt; }
+.frontmatter td img, .frontmatter th img { width: 14px; height: 14px; }
+
+/* ---- Copyright page: front matter, no heading, starts on its own page ---- */
+.copyright-page { break-before: page; font-size: 10.5pt; line-height: 1.5; color: #333; }
+.copyright-page strong { font-size: 12.5pt; color: #1A1A1A; }
+
+/* ---- Conceptual-track reading guide: real content tables inside front matter ---- */
+.reading-guide table { width: 100%; table-layout: auto; border-collapse: collapse; margin: 8pt 0; }
+.reading-guide table th, .reading-guide table td {
+  border: 0.75pt solid #ccc; padding: 4pt 8pt; vertical-align: top;
+  white-space: normal; text-align: left; }
+.reading-guide table td:first-child, .reading-guide table th:first-child {
+  width: auto; white-space: normal; padding-right: 8pt; }
+.reading-guide table th { background: #F5F2EC; font-weight: bold; }
+
+p { margin: 0 0 7pt; orphans: 2; widows: 2; }
+
+/* ---- Code / worked-arithmetic blocks (subtle fill + accent rule, monospace) ---- */
+pre {
+  font-family: "TeX Gyre Cursor","Courier New","Liberation Mono","DejaVu Sans Mono",monospace;
+  font-size: 8.0pt; line-height: 1.35;
+  background: #f6f6f3; border: 0.5pt solid #e0e0d8; border-left: 2.5pt solid #A80036;
+  padding: 7pt 10pt 7pt 14pt; white-space: pre; break-inside: avoid; text-align: left;
+}
+code { font-family: "TeX Gyre Cursor","Courier New","Liberation Mono","DejaVu Sans Mono",monospace; font-size: 0.9em; }
+p code, li code, td code { background: #f0efe9; padding: 0 2px; }
+
+/* ---- Display equations: MathJax SVG wrapped in .mathblock (see build-pdf.py) ---- */
+.mathblock { text-align: center; margin: 11pt 0; break-inside: avoid; }
+.mathblock svg { max-width: 100%; height: auto; }
+.mathinline svg { vertical-align: -0.25ex; }
+
+/* ---- Mermaid diagrams: rendered to PNG at build time (see build-pdf.py) ---- */
+.mermaid-fig { text-align: center; margin: 12pt 0; break-inside: avoid; }
+.figblock { break-inside: avoid; }
+.mermaid-fig img { max-width: 100%; max-height: 215mm; height: auto; }
+/* ---- Static SVG figures (coordinate/geometry diagrams, see tools/figures/) ---- */
+.figure { text-align: center; margin: 12pt 0; break-inside: avoid; }
+.figure img { max-width: 100%; max-height: 215mm; height: auto; }
+
+/* ---- Callout blockquotes: plain-English (🔑), lenses, key ideas ---- */
+blockquote {
+  border-left: 3pt solid #A80036; background: #faf6f1;
+  margin: 9pt 0; padding: 5pt 12pt; font-size: 9.8pt; break-inside: avoid;
+}
+blockquote p { margin: 3pt 0; text-align: left; }
+
+/* ---- Typed callouts (fenced divs): monochrome icon + label, no emoji ---- */
+.callout {
+  position: relative;
+  border-left: 3pt solid #A80036; background: #faf6f1;
+  margin: 9pt 0; padding: 7pt 12pt 7pt 28pt; font-size: 9.8pt;
+  break-inside: avoid;
+}
+.callout::before {
+  content: ""; position: absolute; left: 8pt; top: 50%; transform: translateY(-50%);
+  width: 12pt; height: 12pt;
+  background-repeat: no-repeat; background-position: center; background-size: contain;
+}
+.callout p { margin: 3pt 0; text-align: left; }
+.callout.idea::before     { background-image: url("icons/idea.svg"); }
+.callout.plain::before    { background-image: url("icons/plain.svg"); }
+.callout.note::before     { background-image: url("icons/note.svg"); }
+.callout.caution::before  { background-image: url("icons/caution.svg"); }
+.callout.deepdive::before { background-image: url("icons/deepdive.svg"); }
+.callout.lens::before     { background-image: url("icons/lens.svg"); }
+
+/* ---- Tables ---- */
+table { border-collapse: collapse; margin: 9pt auto; font-size: 9.3pt; }
+table { break-inside: avoid; }
+th, td { border: 0.5pt solid #b8b8b8; padding: 3pt 8pt; text-align: left; vertical-align: top; }
+th { background: #f1eae2; text-align: left; }
+
+/* ---- Lists ---- */
+ul, ol { margin: 0 0 7pt; padding-left: 20pt; }
+li { margin: 2pt 0; }
+
+/* ---- Cover page placeholder ----
+   cover.md is fed through the main pipeline so the page counter is correct
+   (About the Cover = page 2, Preface = page 3, …).  The build script then
+   replaces this placeholder page with a clean full-bleed cover PDF. */
+.cover-page { display: block; height: 250mm; }
+
+/* ---- Printed Table of Contents ---- */
+.toc-page { break-before: page; }  /* TOC starts on its own page */
+
+.toc { margin-top: 4pt; }
+.toc-section { margin-bottom: 4pt; }
+
+hr.toc-sep {
+  border: none; border-top: 0.5pt solid #ccc;
+  margin: 12pt 0;
+}
+
+.toc-entry { display: block; }
+
+.toc-entry a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.6;
+}
+
+/* Dot leader + page number for every TOC link */
+.toc-entry a::after {
+  content: leader('.') '\00a0' target-counter(attr(href), page);
+  color: #666;
+}
+
+/* Front/back-matter entries: prevent leader from wrapping onto a second line */
+.toc-fm a { overflow: hidden; white-space: nowrap; }
+
+/* Chapter-level entries: bold, "CHAPTER N" in accent colour */
+.toc-ch { margin-top: 7pt; font-weight: bold; font-size: 10.8pt; }
+.toc-ch-num {
+  color: #A80036;
+  font-size: 8.5pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Section-level entries: indented, slightly smaller */
+.toc-sec { padding-left: 20pt; font-size: 9.3pt; margin-top: 0; }
+.toc-sec-num { color: #A80036; }
+
+/* Front-matter and back-matter entries: italic, no number */
+.toc-fm { font-size: 10.8pt; font-style: italic; margin-top: 2pt; }
+
+/* ---- PDF bookmarks (WeasyPrint outline panel / TOC sidebar) ---- */
+h1 { bookmark-level: 1; bookmark-label: "Chapter " counter(chapter) " " content(); }
+h2 { bookmark-level: 2; bookmark-label: counter(chapter) "." counter(section) " " content(); }
+h3 { bookmark-level: 3; bookmark-label: content(); }
+.frontmatter h1 { bookmark-level: 1; bookmark-label: content(); }
+.frontmatter h2 { bookmark-level: none; }
+
+/* Figure and table captions (Figure N.k / Table N.k) */
+.caption {
+  font-size: 8.5pt;
+  line-height: 1.35;
+  text-align: center;
+  margin: 4pt 0 12pt 0;
+  color: #4a4a4a;
+  break-before: avoid;
+}
+.caption p { margin: 0; text-align: center; }
+.caption strong { font-variant: small-caps; letter-spacing: 0.03em; color: #A80036; }
